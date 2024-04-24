@@ -185,6 +185,22 @@ p.img-source{
     position: relative;
 }
 
+.section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section img{
+    width: fit-content;
+    height: fit-content;
+    cursor: alias;
+}
+
+.section img:hover{
+    transform: scale(1.05);
+}
+
 .articles-container{
     display: flex;
     gap: 30px;
